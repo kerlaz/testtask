@@ -14,8 +14,7 @@ class App extends Component {
             email: e.target.email.value,
             password: e.target.password.value
         };
-        let passField = e.target.password;
-        this.props.logInHandler(data,passField);
+        this.props.logInHandler(data);
     }
 
     render() {
